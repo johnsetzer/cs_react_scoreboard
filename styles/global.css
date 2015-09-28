@@ -1,0 +1,18 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Fonts */
+html {
+  font-family: Consolas, monaco, monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0px;
+}
